@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>王亚军我与你永远</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
+
+</head>
+
+<body>
+<body onContextMenu="alert('王亚军 ，在一起吧！'); return false" NOOP="if (window.event != null && window.event.button == 2) alert ('Thanks...');">
+<audio autoplay="autopaly">
+					<source src="renxi01.mp3" type="audio/mp3" />
+			</audio>  
+
+
+
+
+
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments">遇上一个人要一分钟的时间，喜欢一个人只需一小时的时间，爱上一个人要一天的时间，可要我忘记你却要用上一生的时间</span><br />
+			<span class="space"/><span class="comments">三年之久 我还是没有忘记你</span><br />
+			<span class="space"/><span class="comments">虽然你一直没有同意，这也不怪你</span><br />
+			<span class="space"/><span class="comments">我知道我没有别人那样帅气与完美</span><br />
+	可是我还是想努力 <span class="keyword">努力的让你接受我</span>！在爱情的世界里，我一无所有，也一无所知，在情感的小站里，我愿你是第一位来客，也是永远的主人，伴着我宠着我；一生一世！<br />
+		 我也知道现在我们都还在学习，也有人常说现在都是在玩，以后肯定没有好结果，可我还是不相信 <span class="keyword">创造奇迹 </span>如果我们在一起 我会努力的让你做世界第二幸福的人<br />
+			<span class="comments"> 当然第一幸福的人是我 因为有你在 嘻嘻 </span><br />
+			<span class="comments">咱两在一起可能很少见面 但我会坚守 不会抛弃你<br />
+			<span class="comments">在我的字典里没有分手两字</span><br />
+我不会对我爱的人说出这两个字， 你的我可以包容  我的错误我会努力的改<br />
+			<span class="comments">如果你说出了 分手 我会努力的挽回 可能你是一时冲动 但是你若真想分开</span><br />
+	我也不会强迫你 ，我会默默的祝福你<br />
+			<span class="comments">你可能会认为这只是客套话，也是几段文字而已，但是我会在 咱们两在一起后证明于你</span><br />
+	别人说用几段煽情的话来感动女孩 但我知道你不是那种随意的女生<br />
+			<span class="comments">我要的也不是那种感动，因为咱们也不是小孩了，爱情也不是过家家</span><br />
+			<span class="keyword">希望你能考虑考虑我</span> 但是我还是不强求 <span class="keyword">爱你</span>;<br />
+					<span class="placeholder"/><span class="comments">王</span><br />
+			<span class="placeholder"/>亚<br />
+			<span class="placeholder"/>军<br />
+	<br />
+			<br>
+			<br>
+			I love you<br />
+			                                               ———爱你的@Wangyj<br />
+<br>
+
+               <input name="trrz.html" type="button" class="btnSousuo" id="trrz.html" value="点击 我的承诺" onclick="window.location='hello.html'"/> 
+<br />
+</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					我们已经认识了
+，继续延续					<div id="elapseClock"></div>
+	</div>
+	
+<div id="loveu">
+					爱你直到永永远远！<br/>
+					<div class="signature">- @Wangyj</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2013, 7, 13);
+together.setHours(08);
+together.setMinutes(0);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+<div style="text-align:center;clear:both">
+
+</div>
+
+
+
+<!-- 代码begin -->
+<style>
+*{ margin:0; padding:0; list-style:none}
+img{ border:0;}
+.lanrenzhijia_service{ width:40px; height:200px; background:url(http://demo.lanrenzhijia.com/2014/service0924/images/lanrenzhijia.png) no-repeat; position:fixed; right:0px; top:200px;}
+.lanrenzhijia_service ul{ display:block; width:160px; height:200px; float:left; position:relative;}
+.lanrenzhijia_service ul .right_bar{ position:absolute;width:40px; height:200px; left:0; top:0; display:block;}
+.lanrenzhijia_service ul .right_qq{ position:absolute; width:120px; height:85px; right:0; top:0; display:block;}
+.lanrenzhijia_service ul .right_phone{ position:absolute; width:120px; height:105px; padding-top:10px;right:0; bottom:0; display:block; text-align:center; color:#555; font-size:16px; font-family:'Microsoft Yahei'; text-decoration:none;}
+</style>
+<div class="lanrenzhijia_service">
+  <ul>
+    <span class="right_bar"></span>
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=1095417087&site=qq&menu=yes" class="right_qq" target="_blank"></a>
+    <span class="right_phone">13285511127</span>
+  </ul>
+</div>
+<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+<script>
+$(function(){
+	$(".lanrenzhijia_service").hover(function(){
+		$(this).animate({width:'160px'});
+	},function(){
+		$(this).animate({width:'40px'});
+	});
+});
+</script>
+<!-- 代码end -->
+
+
+
+</body>
+</html>
